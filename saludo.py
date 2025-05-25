@@ -1,15 +1,4 @@
-hrs = input("Enter Hours:")
-rate = input("Enter Rate:")
+print("¡Hola, mundo desde VS Code!")
 
-h = float(hrs)
-r = float(rate)
-
-if h <= 40:
-    pay = h * r
-    
-else:
-    regular = 40 * r
-    overtime = (h - 40) * (r * 1.5)
-    pay = regular + overtime 
-    
-print(pay)
+nombre = input("¿Cómo te llamas? ")
+print("¡Hola, " + nombre + "! Bienvenida al mundo de Python 🎉")
