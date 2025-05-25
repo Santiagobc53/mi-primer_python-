@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 data = np.random.randn(1000)
 plt.figure()
