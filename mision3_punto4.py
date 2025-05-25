@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import plotly.express as px
 
 x_sc = np.random.rand(50)
 y_sc = np.random.rand(50)
